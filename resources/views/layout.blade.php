@@ -11,6 +11,6 @@
 <body>
 @yield('show')
 @yield('forma')
-
+@include('subscribers.flash_msg')
 </body>
 </html>
